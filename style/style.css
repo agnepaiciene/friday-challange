@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    font-family: 'Poppins';
+    /* background-color: #FFFFFF; */
+    background-color: black;
+  
+}
+
+.main{
+    width: 100%;
+    height: 5400px;
+    /* background-color: black */
+}
+
+.container{
+    width: 1200px;
+    height: inherit;
+    /* background-color: black; */
+    display: flex;
+flex-wrap: wrap;
+}
+
+.wrapper{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+/* ---------------------
+header
+----------------------- */
+.header{
+
+    width: 1200px;
+height: 137px;
+padding: 40px 10px 40px 37px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.logo{
+    align-items: flex-start;
+}
+
+.logo img{
+    width: 202px;
+height: 47.58px;
+}
+
+.nav{
+    width: 497px;
+    height: 46px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    
+}
+
+.nav ul{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+}
+
+.nav li a{ 
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.social{
+    width: 119px;
+height: 32px;
+
+}
+
+.social ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social li{
+    width: 32px;
+    height: 32px;
+    
+}
+.social li a{
+    width: 32px;
+height: 32px;
+text-decoration: none;
+
+}
+
+.social img{
+    width:30.67px;
+    height:29.91px;
+}
+/* -------------------------------------------------------
+Hero
+------------------------------------------------------ */
+
+.hero{
+    width: 809px;
+   min-height: 459px;
+/* background-color: black; */
+margin-top: 146px;
+margin-right:476px;
+margin-left: 115px;
+border: 1px solid white;
+padding: 0 100px 30px 0px;
+flex-basis: 809px;
+flex-grow: 1;
+
+}
+
+.hero h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    color: #FFFFFF;
+    flex-basis: 809px;
+grid-row: 1;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+color: #BCBCBC;
+margin-top: 50px;
+margin-bottom: 50px;
+
+}
+
+.hero a{
+ 
+
+font-family: 'Poppins';
+font-style: normal;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+text-decoration: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+padding: 19px 64px;
+background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 83px;
+}
+
+.hero .btn{
+    width: 280px;
+    height: 80px;
+
+
+
+}
+
+
+/* ---------------------------------------------------------
+Projects
+-------------------------------------------------------- */
+
+
+.projects{
+    width: 1170px;
+height: 1663px;
+/* background-color: black; */
+border: 1px solid white;
+
+}
+
+.projects h1{
+    font-size:55px;
+    line height:82.5px;
+color: rgba(255, 255, 255, 1);
+margin-top:175px;
+margin-left:115px;
+margin-bottom:109px
+}
+
+.project1{
+    width: 1170px;
+    height: 600px;
+    background: #0F1624;
+box-shadow: 0px 0px 12px #FFFFFF;
+border-radius: 50px 0px;
+
+
+}
+
+.card{
+
+}
+
+.card h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 88.5%;
+border-bottom: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+border-radius: 83px;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
